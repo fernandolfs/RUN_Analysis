@@ -13,6 +13,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 3.Move "run_analysis.R" inside "UCI HAR Dataset" file
 
+4.Install reshape2 package: install.packages("reshape2")
+
 4.In RStudio run: source("run_analysis.R")
 
 5.Tidy data set should get created in "UCI HAR Dataset" file as "tidy_data.txt"
