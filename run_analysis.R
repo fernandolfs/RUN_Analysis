@@ -84,8 +84,3 @@ colnames(newdata) <- gsub("\\.+std\\.+",  colnames(newdata), replacement=".Std")
 
 ###Save tidy data set as tidy_data.txt
 write.table(newdata, "tidy_data.txt")
-
-View(read.table("tidy_data.txt"))
-
-
-
