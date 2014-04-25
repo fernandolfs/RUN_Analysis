@@ -3,10 +3,15 @@ RUN_Analysis
 
 This is a programming assignment for Coursera class
 
+
 To create a tidy dataset you should:
 
-Download and unzip data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1.Download and unzip data from: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Set your current directory inside UCI HAR Dataset file
+2.Set your working directory inside UCI HAR Dataset file
+in RStudio: setwd("...\\UCI HAR Dataset\\")
 
-Run the  Rscript .../run_analysis.R
+3.Move run_analysis.R inside UCI HAR Dataset file
+
+4.Run: source("run_analysis.R")
